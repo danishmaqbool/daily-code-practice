@@ -1,0 +1,81 @@
+<!-- Topics
+What is CSS
+Syntax
+Css Selectors
+    Elemnet Selector
+    Calss Selector
+    ID Selector
+    Universal Selector
+Box Model
+Cascading
+Specifically
+CSS Units (px , % , vh vh)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* 
+        h1{
+            color: blue;
+        }
+
+        #a{
+            color: orangered;
+        }
+
+        .d{
+            color: brown;
+        }
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        } */
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #title{
+            color: blue;
+        }
+        p{
+            color: black;
+        }
+        .red{
+            color: red;
+        }
+        .box{
+            width: 300px;
+            padding: 20px;
+            border: 2px solid green;
+            margin: 20px;
+            background-color: aqua;
+        }
+        .hero{
+            height: 100vh;
+            font-size: 2rem;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <h1 style="color: blue;">Danish</h1> -->
+     <!-- <h1 class="d" id="a">Danish Maqbool</h1> -->
+
+     <h1 id="title">CSS Fundamentals</h1>
+
+     <p>This is paragraph one.</p>
+
+     <p class="red">This is paragraph two.</p>
+
+     <div class="box">Box Model Demo</div>
+
+     <section class="hero">Full Secren Section</section>
+
+</body>
+</html>
