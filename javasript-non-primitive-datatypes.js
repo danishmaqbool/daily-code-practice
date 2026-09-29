@@ -16,7 +16,7 @@
 // console.log(typeof job);
 // console.log(job);
 
-let jobs = 12000;
-jobs = String("job");
-console.log(typeof jobs);
-console.log(jobs);
+// let jobs = 12000;
+// jobs = String("job");
+// console.log(typeof jobs);
+// console.log(jobs);
