@@ -119,11 +119,12 @@
 
 
 
-function addition(...numbers){
-    let addi=0;
-    for(let value of numbers){
-        addi+=value;
-    }
-    return addi;
-}
-console.log(addition(1,2,3,5))
+// function addition(...numbers){
+//     let addi=0;
+//     for(let total of numbers){
+//         addi = addi + total;
+//     }
+//     return addi;
+// }
+// console.log(addition(5,5,20))
+
