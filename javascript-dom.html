@@ -1,6 +1,6 @@
-<head></head>
+<!-- <head></head> -->
 
-<body>
+<!-- <body>
     <h1 id="title">Welcome Student</h1>
     <p class="message">Learning DM Today</p>
     <ul id="topics">
@@ -21,4 +21,99 @@
         message.style.backgroundColor="yellow"
         message.textContent=(".....................")
     </script>
-</body>
+</body> -->
+
+
+
+
+
+
+<!-- <h2 id="title"> Hello Students</h2>
+<button id="btn">Change Button</button>
+
+<script>
+    const title = document.querySelector("#title");
+    const btn = document.querySelector("#btn")
+
+    btn.addEventListener("click",function(){
+        title.textContent = "You are login";
+    })
+</script> -->
+
+
+
+
+
+<!-- <form id="login">
+    <input type="text" id="name">
+    <button type="submit">Sumbit</button>
+</form>
+<p id="message"></p>
+
+<script>
+    const form = document.querySelector("#login")
+    const text = document.querySelector("#name");
+    const message =document.querySelector("#message");
+
+    form.addEventListener("submit",function(){
+        event.preventDefault();
+        message.textContent = text.value;
+    })
+</script> -->
+
+
+<!-- My Practice Code -->
+<!-- <form id="form">
+    <input type="text" id="text">
+    <button type="submit">Submit</button>
+</form>
+<p id="message"></p>
+
+<script>
+    let id = document.getElementById("form");
+    let text = document.getElementById("text");
+    let message = document.getElementById("message");
+
+    id.addEventListener("submit",function(){
+        event.preventDefault();
+        message.textContent = text.value;
+    })
+</script> -->
+
+
+
+
+
+<html>
+    <head>
+        <title>Todo List</title>
+    </head>
+
+    <body>
+        <input type="text" id="input">
+        <button class="btn">Add Task</button>
+        <ul id="ul">
+
+        </ul>
+
+        <script>
+            let input = document.querySelector("#input");
+            let btn = document.querySelector(".btn");
+            let ul = document.querySelector("#ul");
+
+            btn.addEventListener("click",function(){
+                let li = document.createElement("li");
+                li.textContent = input.value;
+                ul.append(li);
+                input.value="";
+
+                let dell = document.createElement("button");
+                dell.textContent = "Dell";
+                li.append(dell);
+                dell.addEventListener("click",function(){
+                    li.remove();
+                })
+            })
+        </script>
+    </body>
+</html>
